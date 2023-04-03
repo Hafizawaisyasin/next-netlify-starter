@@ -1,90 +1,127 @@
-# Next + Netlify Starter
+[![Contributors][contributors-shield]][contributors-url]
+[![MIT License][license-shield]][license-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/46648482-644c-4c80-bafb-872057e51b6b/deploy-status)](https://app.netlify.com/sites/next-dev-starter/deploys)
+<!-- PROJECT PREVIEW -->
+<br />
+<p align="center">
+  <a href="https://github.com/Mehdi-BHA/Awesomefolio">
+    <img src="screenshots/preview.jpg" alt="Home section" width="600">
+  </a>
 
-This is a [Next.js](https://nextjs.org/) v12 project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and set up to be instantly deployed to [Netlify](https://url.netlify.com/SyTBPVamO)!
+  <h1 align="center">codehub.tn</h3>
 
-This project is a very minimal starter that includes 2 sample components, a global stylesheet, a `netlify.toml` for deployment, and a `jsconfig.json` for setting up absolute imports and aliases. With Netlify, you'll have access to features like Preview Mode, server-side rendering/incremental static regeneration via Netlify Functions, and internationalized routing on deploy automatically.
+  <p align="center">
+    A coworking space located in downtown Sousse, Tunisia 
+    <br />
+    <br />
+    <a href="https://www.codehub.tn">View Demo</a>
+    ·
+    <a href="https://github.com/Mehdi-BHA/codehub.tn/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/Mehdi-BHA/codehub.tn/issues">Request Feature</a>
+  </p>
+</p>
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/next-netlify-starter&utm_source=github&utm_medium=nextstarter-cs&utm_campaign=devex-cs)
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Forking this project</a></li>
+        <li><a href="#built-with">Screenshots</a></li>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-(If you click this button, it will create a new repo for you that looks exactly like this one, and sets that repo up immediately for deployment on Netlify)
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-## Table of Contents:
+Second version of <a href="https://www.codehub.tn" target="_blank">www.codehub.tn</a>
 
-- [Getting Started](#getting-started)
-- [Installation options](#installation-options)
-- [Testing](#testing)
-  - [Included Default Testing](#included-default-testing)
-  - [Removing Renovate](#removing-renovate)
-  - [Removing Cypress](#removing-cypress)
+### Forking this project
+If someone wants to use this code on his own website, the answer is **YES** BUT please with credits !
+I've spent a non-trivial amount of effort building and designing this iteration of this website, and i am proud of it!
 
+### Screenshots
+
+<p align="center">
+  <p align="center">Landing page</p>
+  <img src="screenshots/main.jpg" alt="landing page">
+</p>
+
+### Built With
+
+* [Next JS](https://nextjs.org/)
+* [Material UI](https://material-ui.com/)
+* [Framer Motion](https://www.framer.com/motion/)
+
+<!-- GETTING STARTED -->
 ## Getting Started
 
-First, run the development server:
+If you want to clone the project
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### Installation
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Clone the repo
+   ```sh
+   git clone https://github.com/your_username_/Project-Name.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   npm run dev
+   ```
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+<!-- CONTRIBUTING -->
+## Contributing
 
-### Installation options
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-**Option one:** One-click deploy
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/next-netlify-starter&utm_source=github&utm_medium=nextstarter-cs&utm_campaign=devex-cs)
+<!-- LICENSE -->
+## License
 
-**Option two:** Manual clone
+Distributed under the MIT License. See `LICENSE` for more information.
 
-1. Clone this repo: `git clone https://github.com/netlify-templates/next-netlify-starter.git`
-2. Navigate to the directory and run `npm install`
-3. Run `npm run dev`
-4. Make your changes
-5. Connect to [Netlify](https://url.netlify.com/Bk4UicocL) manually (the `netlify.toml` file is the one you'll need to make sure stays intact to make sure the export is done and pointed to the right stuff)
 
-## Testing
+<!-- CONTACT -->
+## Contact
 
-### Included Default Testing
+Mehdi Ben Hadj Ali - [linkedIn](https://www.linkedin.com/in/mehdibha/) - mehdibenhadjali@gmail.com
 
-We’ve included some tooling that helps us maintain these templates. This template currently uses:
+Project Link: [https://github.com/Mehdi-BHA/codehub.tn](https://github.com/Mehdi-BHA/codehub.tn)
 
-- [Renovate](https://www.mend.io/free-developer-tools/renovate/) - to regularly update our dependencies
-- [Cypress](https://www.cypress.io/) - to run tests against how the template runs in the browser
-- [Cypress Netlify Build Plugin](https://github.com/cypress-io/netlify-plugin-cypress) - to run our tests during our build process
 
-If your team is not interested in this tooling, you can remove them with ease!
-
-### Removing Renovate
-
-In order to keep our project up-to-date with dependencies we use a tool called [Renovate](https://github.com/marketplace/renovate). If you’re not interested in this tooling, delete the `renovate.json` file and commit that onto your main branch.
-
-### Removing Cypress
-
-For our testing, we use [Cypress](https://www.cypress.io/) for end-to-end testing. This makes sure that we can validate that our templates are rendering and displaying as we’d expect. By default, we have Cypress not generate deploy links if our tests don’t pass. If you’d like to keep Cypress and still generate the deploy links, go into your `netlify.toml` and delete the plugin configuration lines:
-
-```diff
-[[plugins]]
-  package = "netlify-plugin-cypress"
--  [plugins.inputs.postBuild]
--    enable = true
--
--  [plugins.inputs]
--    enable = false 
-```
-
-If you’d like to remove the `netlify-plugin-cypress` build plugin entirely, you’d need to delete the entire block above instead. And then make sure sure to remove the package from the dependencies using:
-
-```bash
-npm uninstall -D netlify-plugin-cypress
-```
-
-And lastly if you’d like to remove Cypress entirely, delete the entire `cypress` folder and the `cypress.config.ts` file. Then remove the dependency using:
-
-```bash
-npm uninstall -S cypress
-```
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/Mehdi-BHA/codehub.tn.svg?style=for-the-badge
+[contributors-url]: https://github.com/Mehdi-BHA/codehub.tn/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Mehdi-BHA/codehub.tn.svg?style=for-the-badge
+[forks-url]: https://github.com/Mehdi-BHA/codehub.tn.svg/network/members
+[stars-shield]: https://img.shields.io/github/stars/Mehdi-BHA/codehub.tn.svg?style=for-the-badge
+[stars-url]: https://github.com/Mehdi-BHA/codehub.tn.svg/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Mehdi-BHA/codehub.tn.svg?style=for-the-badge
+[issues-url]: https://github.com/Mehdi-BHA/codehub.tn.svg/issues
+[license-shield]: https://img.shields.io/github/license/Mehdi-BHA/codehub.tn.svg?style=for-the-badge
+[license-url]: https://github.com/Mehdi-BHA/codehub.tn.svg/blob/master/LICENSE.txt
